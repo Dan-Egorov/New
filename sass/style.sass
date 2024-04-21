@@ -1,0 +1,300 @@
+@import "normalizes.scss"
+@import "resets.scss"
+$main: #555555
+$text_color:#FFFFFF
+
+h2
+    font-size: 32px
+
+.title__1
+    color: #FFFFFF
+
+.container
+    max-width: 1200px
+    margin: 0px auto
+    background-color: #4b4b4b
+
+.main_section
+    height: 100vh
+    background-color: $main
+.main-section__content-container
+    height: 91vh
+    //background-color: blue
+    display: flex
+    flex-direction: row
+.main-section__nav-container
+    width: 100%
+    display: flex
+    flex-direction: row
+    justify-content: flex-end
+    height: 9%
+    //background-color: blue
+    align-items: center
+.main-section__left-wrapper
+    width: 45%
+    background-image: url("../img/Picture1.jpg")
+    background-position: center
+    background-size: cover
+.main-section__right-wrapper__title-box
+    margin-top: 10%
+.main-section__right-wrapper__title1
+    font-weight: bold
+    color: $text_color
+    font-size: 62px
+    //letter-spacing: 1px
+    margin-left: -14%
+.main-section__right-wrapper__title2
+    font-weight: bold
+    color: $text_color
+    font-size: 20px
+    margin-top: 1%
+    margin-left: 24%
+
+//second section
+.second_section
+    height: 100vh
+    background-color: $main
+
+.second_section-information
+    height: 9vh
+    padding-top: 3vh
+
+.second_section__meeting-box
+    display: flex
+    justify-content: center
+    align-items: center
+    width: 35%
+    height: 100%
+    background-color: rgba(64, 64, 64, 0.55)
+
+.second_section__meeting-text
+    color: #FFFFFF
+    font-size: 32px
+
+.second-section__container__main_text-box
+    display: flex
+    justify-content: space-around
+    margin-top: 5vh
+    height: 83vh
+
+.second-section__container__main_text
+    width: 37%
+    font-size: 24px
+    color: $text_color
+
+//third section
+.third_section
+    height: 100vh
+    background-color: $main
+
+.third_section-information
+    height: 9vh
+    padding-top: 3vh
+
+.third_section__meeting-box
+    display: flex
+    justify-content: center
+    align-items: center
+    width: 35%
+    height: 100%
+    background-color: rgba(64, 64, 64, 0.55)
+
+.third_section__meeting-text
+    color: #FFFFFF
+    font-size: 32px
+
+.third-section__container-content
+    display: flex
+    flex-direction: row
+    height: 88vh
+
+.third-section__container-content__text-box
+    display: flex
+    flex-direction: column
+    align-items: center
+    width: 56%
+
+.third-section__container-content__text
+    width: 62%
+    margin-top: 5vh
+    color: $text_color
+    font-size: 22px
+
+.third-section__container-content__image-box
+    width: 38%
+    height: 100%
+
+.third-section__container-content__image
+    width: 100%
+    height: 80%
+    background-image: url("../img/Picture2.png")
+    background-position: center
+    background-size: cover
+
+.fourth_section
+    height: 150vh
+    background-color: $main
+
+.fourth_section-information
+    height: 9vh
+    padding-top: 3vh
+
+.fourth_section__meeting-box
+    display: flex
+    justify-content: center
+    align-items: center
+    width: 35%
+    height: 100%
+    background-color: rgba(64, 64, 64, 0.55)
+
+.fourth_section__meeting-text
+    color: #FFFFFF
+    font-size: 32px
+
+.fourth_section__container-content
+    display: flex
+    flex-direction: column
+    padding-top: 3vh
+    height: 135vh
+    //background-color: red
+
+.fourth_section__container-content-box
+    display: flex
+    flex-direction: row
+    height: 50%
+    //background-color: red
+
+.fourth_section__container-content-box__img-box
+    width: 46%
+    height: 100%
+
+.fourth_section__container-content-box__img
+    width: 90%
+    height: 95%
+    margin: 0px auto
+    background-image: url("../img/Picture3.png")
+    background-size: cover
+    background-position: center
+
+.img2
+    background-image: url("../img/Picture4.png")
+    margin-top: -2%
+
+.fourth_section__container-content-box__text-box
+    display: flex
+    width: 54%
+    color: $text_color
+    font-size: 24px
+    justify-content: center
+
+.fourth_section__container-content-box__text
+    margin-top: 3%
+    width: 80%
+
+
+.nav-menu
+    &__list
+        display: flex
+        flex-direction: row
+    &__list-item
+        margin-right: 82px
+        color: $text_color
+        font-size: 18px
+        font-weight: bold
+        list-style-type: none
+
+footer
+    background-color: $main
+    height: 15vh
+
+.footer-section__autors-box
+    height: 100%
+
+.footer-section__autors
+    font-size: 20px
+    color: #FFFFFF
+    height: 100%
+    background-color: #1f1f1f
+
+
+@media (max-width: 1199px)
+    .fourth_section__container-content-box__text-box
+        color: $text_color
+        font-size: 20px
+    .img2
+        margin-top: -1%
+    .fourth_section__container-content-box__text
+        margin-top: 2%
+        width: 85%
+    .third-section__container-content__text
+        margin-top: 4vh
+        font-size: 20px
+
+@media (max-width: 991px)
+    .main-section__content-container
+        height: 100vh
+        background-image: url("../img/Picture1.jpg")
+        background-position: center
+        background-size: cover
+    .main-section__nav-container
+        display: none
+    .main-section__left-wrapper
+        width: 0%
+    .main-section__right-wrapper__title-box
+        margin-top: 20%
+    .main-section__right-wrapper__title1
+        color: #FFFFFF
+        font-size: 38px
+        margin-left: 2%
+    .main-section__right-wrapper__title2
+        color: #e4e4e4
+        font-size: 16px
+        margin-top: 2%
+        margin-left: 3%
+    
+    .second_section__meeting-box
+        width: 56%
+    .second_section__meeting-text
+        font-size: 28px
+    .second-section__container__main_text-box
+        display: flex
+        align-items: center
+        flex-direction: column
+        margin-top: 3vh
+        height: 85vh
+    .second-section__container__main_text
+        width: 95%
+        font-size: 18px
+        color: $text_color
+    
+    .third_section__meeting-box
+        width: 56%
+    .third_section__meeting-text
+        font-size: 25px
+    .third-section__container-content__image-box
+        width: 0%
+    .third-section__container-content__text-box
+        display: flex
+        flex-direction: column
+        align-items: center
+        width: 90%
+    .third-section__container-content__text
+        width: 80%
+        margin-top: 4vh
+        font-size: 19px
+    
+    .fourth_section__meeting-box
+        width: 56%
+    .fourth_section__meeting-text
+        font-size: 24px
+    .fourth_section__container-content-box__img-box
+        width: 0%
+    .fourth_section__container-content-box__text-box
+        display: flex
+        width: 100%
+        color: $text_color
+        font-size: 19px
+        justify-content: center
+    .fourth_section__container-content-box__text
+        margin-top: 3%
+        width: 100%
