@@ -361,12 +361,21 @@ table {
   border-spacing: 0;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
+a {
+  color: #f5f1ed;
+  text-decoration: none;
+}
+
 h2 {
   font-size: 32px;
 }
 
 .title__1 {
-  color: #72768d;
+  color: #9095a5;
 }
 
 .container {
@@ -396,7 +405,7 @@ h2 {
 }
 
 .main-section__left-wrapper {
-  width: 45%;
+  width: 46%;
   background-image: url("../img/Picture1.jpg");
   background-position: center;
   background-size: cover;
@@ -408,14 +417,14 @@ h2 {
 
 .main-section__right-wrapper__title1 {
   font-weight: bold;
-  color: #FFFFFF;
+  color: #f5f1ed;
   font-size: 62px;
   margin-left: -14%;
 }
 
 .main-section__right-wrapper__title2 {
   font-weight: bold;
-  color: #FFFFFF;
+  color: #f5f1ed;
   font-size: 20px;
   margin-top: 1%;
   margin-left: 24%;
@@ -455,7 +464,7 @@ h2 {
 .second-section__container__main_text {
   width: 37%;
   font-size: 24px;
-  color: #FFFFFF;
+  color: #f5f1ed;
 }
 
 .third_section {
@@ -498,8 +507,8 @@ h2 {
 .third-section__container-content__text {
   width: 62%;
   margin-top: 5vh;
-  color: #FFFFFF;
-  font-size: 22px;
+  color: #f5f1ed;
+  font-size: 23px;
 }
 
 .third-section__container-content__image-box {
@@ -574,7 +583,7 @@ h2 {
 .fourth_section__container-content-box__text-box {
   display: flex;
   width: 54%;
-  color: #FFFFFF;
+  color: #f5f1ed;
   font-size: 24px;
   justify-content: center;
 }
@@ -590,7 +599,7 @@ h2 {
 }
 .nav-menu__list-item {
   margin-right: 82px;
-  color: #FFFFFF;
+  color: #f5f1ed;
   font-size: 18px;
   font-weight: bold;
   list-style-type: none;
@@ -614,8 +623,8 @@ footer {
 
 @media (max-width: 1199px) {
   .fourth_section__container-content-box__text-box {
-    color: #FFFFFF;
-    font-size: 20px;
+    color: #f5f1ed;
+    font-size: 19.5px;
   }
   .img2 {
     margin-top: -1%;
@@ -672,7 +681,7 @@ footer {
   .second-section__container__main_text {
     width: 95%;
     font-size: 18px;
-    color: #FFFFFF;
+    color: #f5f1ed;
   }
   .third_section__meeting-box {
     width: 56%;
@@ -706,7 +715,7 @@ footer {
   .fourth_section__container-content-box__text-box {
     display: flex;
     width: 100%;
-    color: #FFFFFF;
+    color: #f5f1ed;
     font-size: 19px;
     justify-content: center;
   }
