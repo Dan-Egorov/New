@@ -361,10 +361,6 @@ table {
   border-spacing: 0;
 }
 
-html {
-  scroll-behavior: smooth;
-}
-
 a {
   color: #f5f1ed;
   text-decoration: none;
