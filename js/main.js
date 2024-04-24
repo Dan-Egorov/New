@@ -1,5 +1,5 @@
 document.querySelectorAll('a.yakor').forEach(link => {
-    link.addEventListener('click', function(e) {
+    link.addEventListener('touch', function(e) {
         e.preventDefault()
 
         let href = this.getAttribute('href').substring(1)
